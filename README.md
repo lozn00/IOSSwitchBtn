@@ -124,3 +124,4 @@ switchBtn.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener(
 
 #### 效果图
 
+![效果图](https://github.com/qssq/IOSSwitchBtn/blob/master/Picture/demo.png "这是效果图")
