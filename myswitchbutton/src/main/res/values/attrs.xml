@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="QSSQSwitchBtn">
+
+        <attr name="innerBtnColor" format="color|reference"/>
+        <attr name="checkBgColor" format="color|reference"/>
+        <attr name="uncheckBgColor" format="color|reference"/>
+        <attr name="btnRadius" format="dimension|reference"/>
+        <attr name="innerBtnWidth" format="dimension|reference"/>
+        <attr name="innerBtnHeight" format="dimension|reference"/>
+        <attr name="innerPadding" format="dimension|reference"/>
+    </declare-styleable>
+</resources>

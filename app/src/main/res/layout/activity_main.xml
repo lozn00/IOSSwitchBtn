@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/line"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+
+    <cn.qssq666.switchbtn.QSSQSwitchBtn
+
+        android:layout_margin="5dp"
+        android:id="@+id/btn_switch_btn"
+        android:layout_width="60dp"
+        app:innerPadding="2dp"
+        app:btnRadius="15dp"
+        app:innerBtnColor="#000"
+        app:checkBgColor="#0f0"
+        app:uncheckBgColor="#ccc"
+        android:layout_height="45dp" />
+
+
+
+
+    <cn.qssq666.switchbtn.QSSQSwitchBtn
+
+        android:layout_margin="5dp"
+        android:id="@+id/btn_switch_btn1"
+        android:layout_width="60dp"
+        app:innerPadding="2dp"
+        app:btnRadius="15dp"
+        app:checkBgColor="#f00"
+        app:uncheckBgColor="#000"
+        android:layout_height="50dp" />
+
+
+
+
+    <cn.qssq666.switchbtn.QSSQSwitchBtn
+
+        android:layout_margin="5dp"
+        android:id="@+id/btn_switch_btn2"
+        android:layout_width="60dp"
+        app:innerPadding="2dp"
+        app:btnRadius="15dp"
+        app:innerBtnColor="#fff"
+        app:checkBgColor="#9e0"
+        app:uncheckBgColor="#ccc"
+        android:layout_height="50dp" />
+
+
+
+    <cn.qssq666.switchbtn.QSSQSwitchBtn
+
+        android:layout_margin="5dp"
+        android:id="@+id/btn_switch_btn3"
+        android:layout_width="60dp"
+        app:innerPadding="1dp"
+        app:btnRadius="15dp"
+
+        app:checkBgColor="#fe0"
+        app:uncheckBgColor="#ccc"
+        android:layout_height="50dp" />
+
+
+</LinearLayout>
